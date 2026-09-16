@@ -5,15 +5,15 @@ pubDate: 'Sep 17 2026'
 heroImage: '../../assets/blog-placeholder-4.jpg'
 ---
 
-# Quantum Key Distribution with Untrusted Relay Nodes - A Solution With Single Photon Source Quantum Dot #
+## Quantum Key Distribution with Untrusted Relay Nodes - A Solution With Single Photon Source Quantum Dot ##
 
-## Introduction ##
+### Introduction ###
 
 This study notes is mainly based on my reading of [this paper](https://www.nature.com/articles/s41567-025-03005-5?fromPaywallRec=false). What interest me the most from this paper is the fact that it uses untrusted quantum relay nodes. To my knowledge, the most common already implemented quantum network are done based on trusted relay node [ref](https://www.nature.com/articles/s41586-020-03093-8).
 
-## Phase Matching Quantum Key Dsitribution ## 
+### Phase Matching Quantum Key Dsitribution ### 
 
 This paper achieves secure key distribution between users through the implementation of Phase Matching Quantum Key Distribution (PM-QKD). It follows the method outlined in this [paper](https://journals.aps.org/prx/abstract/10.1103/PhysRevX.8.031043) but it replaces the central relay node with three intermediate relay nodes that consist of 2 Bell state measurement nodes and single photon source node. PM-QKD itself is a variant of Twin Field Quantum Key Distribution(TF-QKD) which by itself is a variant of Measurement Device Independent Quantum Key Distribution. The advantage of TF-QKD over MDI-QKD is that it can retain coherency over longer distance when compared to MDI-QKD (**citation needed). 
 
-### Central relay node to distributed intermediate relay nodes ###
+##### Central relay node to distributed intermediate relay nodes #####
 The paper claims that this innovation unlocks the potential of enhancing the scalability of the network but the author example of scalability consist of scaling the relay systems to cover more distances. I am curious if this method can be generalized to multiplexed communication between multiple users and what are the consequences of scaling to multiple users.
