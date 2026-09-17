@@ -1,6 +1,6 @@
 ---
 title: 'Untrusted Quantum Relay Study Notes'
-description: 'Lorem ipsum dolor sit amet'
+description: 'A study note about a paper on qkd with untrusted quantum relay nodes'
 pubDate: 'Sep 16 2026'
 updatedDate: 'Sep 17 2026'
 heroImage: '../../assets/blog-placeholder-4.jpg'
